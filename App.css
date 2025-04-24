@@ -1,0 +1,31 @@
+.chat-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.login, .input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+.message {
+  padding: 8px;
+  background: #f0f0f0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.timestamp {
+  font-size: 0.75rem;
+  color: gray;
+}
+input, button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
